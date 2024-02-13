@@ -1,0 +1,118 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 16px;
+  width: 460px;
+  height: 52px;
+  border-radius: 6px;
+  border: none;
+}
+
+button{
+  width: 145px;
+  height: 54px;
+  border-radius: 6px;
+  background-color: #ED3052;
+  border: none;
+  font-size: 20px;
+  color: #FFFF;
+  margin-left: -10px;
+  position: relative;
+}
+.search{
+   background-color: lightseagreen;
+   text-align: center;
+   padding-bottom: 50px;
+   /* margin-top: -22px; */
+   margin-bottom: 50px;
+   
+}
+.search h1{
+  color: #FFFF;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+}
+.search-btn{
+  align-items: center;
+}
+.card{
+  padding-top: 15px;
+  width: 360px;
+  margin: 0 auto;
+  padding: 0 auto;
+  /* background-color: #FFFF; */
+  box-shadow: 0px 5px 20px 0px #1B6C7240;
+  height: 311px;
+  border-radius: 6px;
+
+}
+.card-in{
+  box-shadow: 0px 5px 20px 0px #1B6C7240;
+  width: 340px;
+  height: 315px;
+  margin: 0 auto ;
+  padding: 0 auto;
+  padding-top: 30px;
+  border-radius: 6px;
+  padding: 20px 20px 44px 20px;
+
+}
+.card-in h2{
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #000000;
+}
+.cradus-icons{
+
+  display: flex;
+  gap: 20px;
+}
+.cradus-icons h3{
+  font-size: 72px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 72px;
+}
+.text-1{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 5px;
+  padding-top: 10px;
+
+}
+p{
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.text-1 span{
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+h4{
+  text-align: center;
+}
+.h2{
+  text-align: center;
+  color: red;
+}
+img{
+  width: 106px;
+  height: 108px;
+}
